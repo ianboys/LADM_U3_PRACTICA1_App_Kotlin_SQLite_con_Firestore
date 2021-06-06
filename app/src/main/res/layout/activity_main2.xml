@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/txtActNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre cliente" />
+
+    <EditText
+        android:id="@+id/txtActProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Producto" />
+
+    <EditText
+        android:id="@+id/txtActPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Precio"/>
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTUALIZAR" />
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGRESAR" />
+</LinearLayout>

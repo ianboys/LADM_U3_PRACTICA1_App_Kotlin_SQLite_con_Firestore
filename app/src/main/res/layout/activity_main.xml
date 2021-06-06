@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre cliente" />
+
+    <EditText
+        android:id="@+id/txtProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Producto" />
+
+    <EditText
+        android:id="@+id/txtPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Precio"/>
+
+    <Button
+        android:id="@+id/btnInsertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INSERTAR" />
+
+    <Button
+        android:id="@+id/btnSincronizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SINCRONIZAR" />
+
+    <TextView
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SQLite" />
+
+    <ListView
+        android:id="@+id/listaSQLite"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Firestore" />
+
+    <ListView
+        android:id="@+id/listaFirestore"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+</LinearLayout>
